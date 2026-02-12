@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom-navbar px-3">
+          <a class="navbar-brand d-flex align-items-center" href="home.html"
+            ><img
+              src="/FurHaven-Bootsrtap/Images/logo.jpg"
+              alt=""
+              class="logo rounded-pill"
+          /></a>
+          <span class="navbar-brand fw-bold fs-2">FurHaven</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link px-2" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2" href="tips.html">Tips</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="review.html">Reviews</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form> -->
+            <a href="#"><i class="bi bi-cart-fill p-3"></i></a>
+            <a href="login.html"><button class="btn">Login</button></a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!-- FAQ SECTION -->
+    <div class="container">
+      <div class="section-container">
+        <div class="faq-section">
+          <div class="faq-container">
+            <div class="row align-items-center text-center">
+              <div class="col-md-2 d-none d-md-block">
+                <img
+                  src="Images/cat-faq.gif"
+                  alt="Cat with question mark image"
+                  class="faq-img"
+                />
+              </div>
+              <div class="col-md-8 col-12">
+                <h1 class="mt-4">FAQs</h1>
+                <h2>Frequently Asked Questions</h2>
+              </div>
+              <div class="col-md-2 d-none d-md-block">
+                <img
+                  src="Images/cat-faq.gif"
+                  alt="Cat with question mark image"
+                  class="faq-img"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="accordion my-5 pb-5 mx-auto"
+            style="max-width: 900px"
+            id="accordionPanelsStayOpenExample"
+          >
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  What is FurHaven?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  <strong>FurHaven</strong> is an online pet care website that
+                  offers a wide range of pet products such as
+                  <strong>food, toys, grooming items, and accessories.</strong>
+                  We also provide useful
+                  <strong>pet care tips and guidance</strong> to help pet owners
+                  care for their pets with confidence.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  What types of pets do you support?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  We support
+                  <strong>dogs, cats, birds, fish, rabbits, turtles,</strong>
+                  and other <strong>small household pets</strong>. Our aim is to
+                  provide
+                  <strong>all pet essentials in one place,</strong> making it
+                  easy for pet owners.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  Do you sell only pet products or also provide pet care advice?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  FurHaven offers both <strong>pet products</strong> and
+                  <strong>pet care information.</strong> Along with shopping,
+                  users can learn about
+                  <strong
+                    >grooming, health care, first-aid, and safety tips</strong
+                  >
+                  for pets.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFour"
+                >
+                  Are your products safe for pets?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseFour"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Yes, all products are chosen with
+                  <strong>pet safety and comfort</strong> in mind. We focus on
+                  <strong
+                    >quality materials, pet-friendly designs, and trusted
+                    brands</strong
+                  >
+                  to ensure your pet’s well-being.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFive"
+                >
+                  Can I buy products for different pets in one order?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseFive"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Yes, you can shop for
+                  <strong>multiple pets at the same time.</strong> Products for
+                  dogs, cats, birds, fish, and more are available in one place
+                  for
+                  <strong>convenient shopping.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseSix"
+                >
+                  What is the purpose of the Pet Care Tips page?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseSix"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  The <strong>Pet Care Tips page</strong> provides helpful
+                  articles on
+                  <strong
+                    >feeding, grooming, health care, safety, and
+                    first-aid,</strong
+                  >
+                  helping pet owners understand daily pet care needs.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseSeven"
+                >
+                  Can I trust the product descriptions on your website?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseSeven"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Yes, every product page includes
+                  <strong>clear descriptions,</strong> such as
+                  <strong
+                    >features, usage instructions, materials, and
+                    benefits,</strong
+                  >
+                  helping customers make <strong>informed decisions.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseEight"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseEight"
+                >
+                  Do you offer discounts or special offers?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseEight"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Yes, <strong>discounts and special offers</strong> are
+                  highlighted on the <strong>homepage,</strong> including
+                  <strong>seasonal deals and limited-time offers.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseNine"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseNine"
+                >
+                  How do I know which product is best for my pet?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseNine"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Each product page explains
+                  <strong>who the product is for, its benefits,</strong> and
+                  <strong>usage details.</strong> You can also refer to our
+                  <strong>Pet Care Tips</strong> for guidance.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTen"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTen"
+                >
+                  How often should I groom my pet?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTen"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Grooming depends on the
+                  <strong>pet type and breed.</strong> Dogs and cats usually
+                  need <strong>regular brushing,</strong> while birds and fish
+                  require <strong>clean habitats.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseEleven"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseEleven"
+                >
+                  Why are regular vet check-ups important?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseEleven"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Regular vet visits help in
+                  <strong>early detection of health problems,</strong> ensure
+                  <strong>vaccinations are up to date,</strong> and keep pets
+                  healthy in the long term.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwelve"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwelve"
+                >
+                  Are your toys safe for aggressive chewers?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwelve"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Some toys are specially designed for
+                  <strong>strong or aggressive chewers.</strong> Always check
+                  the
+                  <strong>product description and size recommendations</strong>
+                  before purchasing.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThirteen"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThirteen"
+                >
+                  Can pets eat human food?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThirteen"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Some human foods are safe, but many are
+                  <strong>dangerous for pets.</strong> Foods like
+                  <strong>chocolate, onions, and grapes</strong> should never be
+                  given to pets.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFourteen"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFourteen"
+                >
+                  How do I contact customer support?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseFourteen"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  You can contact us through the
+                  <strong>Contact page,</strong> using the
+                  <strong>contact form,</strong> or via the
+                  <strong>email and phone number</strong> provided in the
+                  footer.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFifteen"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFifteen"
+                >
+                  How can I create a safe home environment for my pet?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseFifteen"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Keep
+                  <strong
+                    >chemicals, medicines, wires, and sharp objects</strong
+                  >
+                  out of reach. Securing your home helps prevent
+                  <strong>accidents and injuries.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSixteen"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseSixteen"
+                >
+                  What should I do if my pet is sick?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseSixteen"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  If your pet shows signs of illness like
+                  <strong>loss of appetite or unusual behavior,</strong> consult
+                  a <strong>veterinarian immediately.</strong> Do not rely only
+                  on online information.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseSeventeen"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseSeventeen"
+                >
+                  How often should I clean pet cages or tanks?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseSeventeen"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Bird cages should be cleaned <strong>weekly</strong>, and fish
+                  tanks require <strong>regular water changes</strong> to
+                  prevent infections and maintain hygiene.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseEighteen"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseEighteen"
+                >
+                  Do indoor pets still need exercise?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseEighteen"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Yes,
+                  <strong>indoor pets need regular physical activity.</strong>
+                  Toys, playtime, and interaction help reduce
+                  <strong>stress and boredom.</strong>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseNineteen"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseNineteen"
+                >
+                  Why choose FurHaven over other pet websites?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseNineteen"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  FurHaven offers
+                  <strong
+                    >quality products, helpful care tips, a clean design, and a
+                    pet-friendly experience</strong
+                  >
+                  — all in one platform.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed h2"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwenty"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwenty"
+                >
+                  Can I trust FurHaven for long-term pet care needs?
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwenty"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  Yes. Our goal is to support pet owners with
+                  <strong
+                    >reliable products, useful information, and a friendly
+                    experience</strong
+                  >
+                  at every stage of pet care.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container">
+      <div class="footer mt-3 pt-4 pb-3">
+        <div class="row gy-4 text-center">
+          <div class="col-lg-3 col-md-6 col-12 page-link text-center">
+            <a class="navbar-brand" href="home.html"
+              ><img
+                src="Images/logo.jpg"
+                alt=""
+                class="footer-logo rounded-pill"
+            /></a>
+            <h5 class="pb-1 pt-1">About FurHaven</h5>
+            <p class="footer-about">
+              FurHaven offers quality pet products and helpful care tips to keep
+              your furry, feathery, and finned friends healthy and happy.
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-12 d-flex flex-column page-link">
+            <h5 class="pb-1">Explore</h5>
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="tips.html">Tips</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="review.html">Review</a>
+            <a href="faq.html">FAQ</a>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-12 d-flex flex-column page-link">
+            <h5 class="pb-1">Pet Categories</h5>
+            <a href="Shop/dogShop.html">Dog</a>
+            <a href="Shop/catShop.html">Cat</a>
+            <a href="Shop/birdShop.html">Bird</a>
+            <a href="Shop/fishShop.html">Fish</a>
+            <a href="Shop/rabbitShop.html">Rabbit</a>
+            <a href="Shop/hamsterShop.html">Hamster</a>
+            <a href="Shop/turtleShop.html">Turtle</a>
+          </div>
+
+          <div class="col-lg-3 col-md-2 col-12 d-flex flex-column page-link">
+            <h5 class="pb-1">Contact Info</h5>
+            <div class="info-item">
+              <i class="bi bi-telephone-fill text-primary"></i>
+              <span>+91 8056704459</span>
+            </div>
+            <div class="info-item">
+              <i class="bi bi-envelope-paper text-danger"></i>
+              <span>support@furhaven.com</span>
+            </div>
+            <div class="info-item">
+              <i class="bi bi-geo-alt text-success"></i>
+              <span>Coimbatore, India</span>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-12 social-link">
+            <h5 class="pb-1">Follow Us</h5>
+            <div
+              class="d-flex gap-4 justify-content-md-start justify-content-center"
+            >
+              <a href="https://www.instagram.com/?next=%2F"
+                ><i class="bi bi-instagram text-primary" id="insta"></i
+              ></a>
+              <a href="https://www.facebook.com/login/"
+                ><i class="bi bi-facebook text-primary" id="facebook"></i
+              ></a>
+              <a href="https://www.youtube.com/"
+                ><i class="bi bi-youtube text-danger" id="youtube"></i
+              ></a>
+              <a href="https://web.whatsapp.com/"
+                ><i class="bi bi-whatsapp text-success"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="text-center">© 2025 FurHaven. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

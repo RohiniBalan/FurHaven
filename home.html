@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom-navbar px-3">
+          <a class="navbar-brand d-flex align-items-center" href="home.html"
+            ><img
+              src="/FurHaven-Bootsrtap/Images/logo.jpg"
+              alt=""
+              class="logo rounded-pill"
+          /></a>
+          <span class="navbar-brand fw-bold fs-2">FurHaven</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link px-2" aria-current="page" href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2" href="tips.html">Tips</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="review.html">Reviews</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form> -->
+            <a href="#"><i class="bi bi-cart-fill p-3"></i></a>
+            <a href="login.html"><button class="btn">Login</button></a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!--SECTION CONTAINER-->
+    <div class="container"> 
+      <div class="section-container">
+        <!-- HOME SECTION -->
+        <div class="home-container">
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="Images/home1.jpg"
+                  class="d-block w-100"
+                  alt="Home Page Image"
+                />
+                <div
+                  class="carousel-caption text-start d-none d-md-block opacity-75 custom-caption"
+                >
+                  <h5 class="h1 home-heading">Welcome to FurHaven</h5>
+                  <p class="fs-5">
+                    Everything your pet needs - <br />care, comfort, and love.
+                    🐾💚
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/736x/67/6a/d7/676ad7934e683ae2eeb628de6d5f980a.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div
+                  class="carousel-caption text-start d-none d-md-block opacity-75 caption-custom"
+                >
+                  <h5 class="h2 home-heading">Flat 30% OFF on Pet Essentials!</h5>
+                  <p class="fs-5">
+                    Pamper your pets with premium food, toys & care essentials — at special prices!
+                    🐾🎁
+                  </p>
+                  <a href="shop.html"><button class="m-2 btn p-2">Shop Now</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/1200x/c0/f2/99/c0f2999e36f478e71dc104e25e29b6d6.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div
+                  class="carousel-caption text-start d-none d-md-block custom-caption"
+                >
+                  <h5 class="h3 home-heading">
+                    Happy Pets Start with Good Care
+                  </h5>
+                  <p class="fs-5">
+                    Gentle grooming and care for everyday comfort. 🐾🛁💚
+                  </p>
+                  <a href="shop.html"><button class="m-2 btn p-2">Explore Grooming</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://i.pinimg.com/1200x/58/db/ac/58dbac3bbccd416bab26a79f2432d28d.jpg"
+                  class="d-block w-100"
+                  alt="Home Page Image"
+                />
+                <div
+                  class="carousel-caption text-start d-none d-md-block opacity-75 custom-caption"
+                >
+                  <h5 class="h3 home-heading">New Toys. More Fun. More Love.</h5>
+                  <p class="fs-5">
+                    Discover fun toys that keep your pets active and happy every day.
+                    🧸🐾
+                  </p>
+                  <a href="shop.html"><button class="m-2 btn p-2">View New Arrival</button></a>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- CATEGORY SECTION -->
+        <div class="category-container mt-5 mb-1">
+          <h1 class="text-center mb-5">Category</h1>
+          <div class="d-flex flex-wrap justify-content-evenly card-container">
+            <div class="card-outline mb-4">
+              <a href="Shop/dogShop.html">
+                <div class="card category-card" style="width: 18rem">
+                  <img
+                    src="https://i.pinimg.com/1200x/29/67/62/2967628f8a4562bced4cdc73c9693884.jpg"
+                    class="card-img-top"
+                    alt="Category image of Dog"
+                  />
+                  <div class="card-body text-center bg-white">
+                    <p class="card-text h3 mb-1 text-center">Dog</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-outline mb-4">
+              <a href="Shop/birdShop.html">
+                <div class="card category-card" style="width: 18rem">
+                  <img
+                    src="https://i.pinimg.com/736x/db/a9/32/dba932458c86940cffa827011dd5203c.jpg"
+                    class="card-img-top"
+                    alt="Category image of Bird"
+                  />
+                  <div class="card-body">
+                    <p class="card-text h3 text-center">Bird</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-outline mb-4">
+              <a href="Shop/rabbitShop.html">
+                <div class="card category-card" style="width: 18rem">
+                  <img
+                    src="https://i.pinimg.com/1200x/58/c8/6a/58c86a0d0780a02a139b0ae50a2eae51.jpg"
+                    class="card-img-top"
+                    alt="Category image of Rabbit"
+                  />
+                  <div class="card-body">
+                    <p class="card-text h3 text-center">Rabbit</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- FEATURES SECTION-->
+        <div class="feature-container mt-5 mb-1">
+          <h1 class="text-center mb-5">Features</h1>
+          <div
+            class="d-flex flex-wrap justify-content-evenly card-feature mb-3"
+          >
+            <div class="feature-main-card py-4 mb-4">
+              <div class="card category-card-feature" style="width: 18rem">
+                <img
+                  src="https://i.pinimg.com/1200x/e9/64/4f/e9644fc50508601aa0fc999ee7b0bacc.jpg"
+                  class="card-img-top"
+                  alt="Category image of Dog"
+                />
+                <div class="card-body text-center bg-white">
+                  <p class="card-text h4 text-center">Hanging Swing Toy</p>
+                </div>
+              </div>
+              <p class="price"><b>Price : </b>200</p>
+              <a href="ProductDetail/Bird/hangingSwingToy.html"
+                ><button class="btn btn-sm">View Details</button></a
+              >
+            </div>
+
+            <div class="feature-main-card py-4 mb-4">
+              <div class="card category-card-feature" style="width: 18rem">
+                <img
+                  src="https://m.media-amazon.com/images/I/71h-xGeasgL.jpg"
+                  class="card-img-top"
+                  alt="Category image of Dog"
+                />
+                <div class="card-body text-center bg-white">
+                  <p class="card-text h4 text-center">Rabbit Wter Bottle</p>
+                </div>
+              </div>
+              <p class="price"><b>Price : </b>200</p>
+              <a href="ProductDetail/Rabbit/rabbitWaterBottle.html"
+                ><button class="btn btn-sm">View Details</button></a
+              >
+            </div>
+            <div class="feature-main-card py-4 mb-4">
+              <div class="card category-card-feature" style="width: 18rem">
+                <img
+                  src="https://m.media-amazon.com/images/I/719ZWwqpWNL.jpg"
+                  class="card-img-top"
+                  alt="Category image of Dog"
+                />
+                <div class="card-body text-center bg-white">
+                  <p class="card-text h4 text-center">Floating Plant Toy</p>
+                </div>
+              </div>
+              <p class="price"><b>Price : </b>300</p>
+              <a href="ProductDetail/Fish/floatingPlantToy.html"
+                ><button class="btn btn-sm">View Details</button></a
+              >
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap justify-content-evenly card-feature">
+            <div class="feature-main-card py-4 mb-4">
+              <div class="card category-card-feature" style="width: 18rem">
+                <img
+                  src="https://m.media-amazon.com/images/I/51qAwqllhaS._AC_UF1000,1000_QL80_.jpg"
+                  class="card-img-top"
+                  alt="Category image of Dog"
+                />
+                <div class="card-body text-center bg-white">
+                  <p class="card-text h4 text-center">Hamster House Hut</p>
+                </div>
+              </div>
+              <p class="price"><b>Price : </b>250</p>
+              <a href="ProductDetail/Hamster/hamsterHouseHut.html"
+                ><button class="btn btn-sm">View Details</button></a
+              >
+            </div>
+
+            <div class="feature-main-card py-4 mb-4">
+              <div class="card category-card-feature" style="width: 18rem">
+                <img
+                  src="https://i.pinimg.com/1200x/ef/1c/33/ef1c33fb1d7ef07e5bab3df2c8e7842a.jpg"
+                  class="card-img-top"
+                  alt="Category image of Dog"
+                />
+                <div class="card-body text-center bg-white">
+                  <p class="card-text h4 text-center">Turtle Tank Cleaner</p>
+                </div>
+              </div>
+              <p class="price"><b>Price : </b>190</p>
+              <a href="ProductDetail/Turtle/turtleTankCleaner.html"
+                ><button class="btn btn-sm">View Details</button></a
+              >
+            </div>
+            <div class="feature-main-card py-4 mb-4">
+              <div class="card category-card-feature" style="width: 18rem">
+                <img
+                  src="https://i.pinimg.com/736x/ce/0e/be/ce0ebe08c07844b53b36dc7d70c59689.jpg"
+                  class="card-img-top"
+                  alt="Category image of Dog"
+                />
+                <div class="card-body text-center bg-white">
+                  <p class="card-text h4 text-center">Plush Animal Toy</p>
+                </div>
+              </div>
+              <p class="price"><b>Price : </b>280</p>
+              <a href="ProductDetail/Dog/plushAnimalToy.html"
+                ><button class="btn btn-sm">View Details</button></a
+              >
+            </div>
+          </div>
+        </div>
+        
+        <!--TIPS SECTION-->
+        <div class="category-container mt-5 mb-1">
+          <h1 class="text-center mb-5">Pet Tips</h1>
+          <div class="d-flex flex-wrap justify-content-evenly card-container">
+            <div class="card-outline mb-4">
+              <a href="Tips/dogGroom.html">
+                <div class="card category-card" style="width: 18rem">
+                  <img
+                    src="https://i.pinimg.com/736x/47/4c/e3/474ce366e734558eeb16343879554f44.jpg"
+                    class="card-img-top"
+                    alt="Category image of Bird"
+                  />
+                  <div class="card-body">
+                    <p class="card-text h4 text-center">
+                      Groom Your Dog at Home
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-outline mb-4">
+              <a href="Tips/birdCare.html">
+                <div class="card category-card" style="width: 18rem">
+                  <img
+                    src="https://cdn.shopify.com/s/files/1/0565/8021/0861/files/indian-ringneck-parrot.jpg?v=1747129469"
+                    class="card-img-top"
+                    alt="Category image of Bird"
+                  />
+                  <div class="card-body">
+                    <p class="card-text h4 text-center">
+                      Bird Care Basics for Beginners
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-outline mb-4">
+              <a href="Tips/firstAid.html">
+                <div class="card category-card" style="width: 18rem">
+                  <img
+                    src="https://i.pinimg.com/736x/57/9a/28/579a28abe7b42d90e639705fbc0dc391.jpg"
+                    class="card-img-top"
+                    alt="Category image of Rabbit"
+                  />
+                  <div class="card-body">
+                    <p class="card-text h4 text-center">
+                      Basic First-Aid for Pets
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container">
+      <div class="footer pt-4 pb-3">
+        <div class="row gy-4 text-center">
+          <div class="col-lg-3 col-md-6 col-12 page-link text-center">
+            <a class="navbar-brand" href="home.html"
+              ><img
+                src="Images/logo.jpg"
+                alt=""
+                class="footer-logo rounded-pill"
+            /></a>
+            <h5 class="pb-1 pt-1">About FurHaven</h5>
+            <p class="footer-about">
+              FurHaven offers quality pet products and helpful care tips to keep
+              your furry, feathery, and finned friends healthy and happy.
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-12 d-flex flex-column page-link">
+            <h5 class="pb-1">Explore</h5>
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="tips.html">Tips</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="review.html">Review</a>
+            <a href="faq.html">FAQ</a>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-12 d-flex flex-column page-link">
+            <h5 class="pb-1">Pet Categories</h5>
+            <a href="Shop/dogShop.html">Dog</a>
+            <a href="Shop/catShop.html">Cat</a>
+            <a href="Shop/birdShop.html">Bird</a>
+            <a href="Shop/fishShop.html">Fish</a>
+            <a href="Shop/rabbitShop.html">Rabbit</a>
+            <a href="Shop/hamsterShop.html">Hamster</a>
+            <a href="Shop/turtleShop.html">Turtle</a>
+          </div>
+
+          <div class="col-lg-3 col-md-2 col-12 d-flex flex-column page-link">
+            <h5 class="pb-1">Contact Info</h5>
+            <div class="info-item">
+              <i class="bi bi-telephone-fill text-primary"></i>
+              <span>+91 8056704459</span>
+            </div>
+            <div class="info-item">
+              <i class="bi bi-envelope-paper text-danger"></i>
+              <span>support@furhaven.com</span>
+            </div>
+            <div class="info-item">
+              <i class="bi bi-geo-alt text-success"></i>
+              <span>Coimbatore, India</span>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-12 social-link">
+            <h5 class="pb-1">Follow Us</h5>
+            <div
+              class="d-flex gap-4 justify-content-md-start justify-content-center"
+            >
+              <a href="https://www.instagram.com/?next=%2F"
+                ><i class="bi bi-instagram text-primary" id="insta"></i
+              ></a>
+              <a href="https://www.facebook.com/login/"
+                ><i class="bi bi-facebook text-primary" id="facebook"></i
+              ></a>
+              <a href="https://www.youtube.com/"
+                ><i class="bi bi-youtube text-danger" id="youtube"></i
+              ></a>
+              <a href="https://web.whatsapp.com/"
+                ><i class="bi bi-whatsapp text-success"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="text-center">© 2025 FurHaven. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

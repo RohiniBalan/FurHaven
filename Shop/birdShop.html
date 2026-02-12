@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOG</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+      <!-- NAVBAR SECTION -->
+      <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom-navbar px-3">
+          <a class="navbar-brand d-flex align-items-center" href="/FurHaven-Bootsrtap/home.html"
+            ><img
+              src="/FurHaven-Bootsrtap/Images/logo.jpg"
+              alt=""
+              class="logo rounded-pill"
+          /></a>
+          <span class="navbar-brand fw-bold fs-2">FurHaven</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link px-2" aria-current="page" href="/home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2" href="/shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2" href="/tips.html">Tips</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="/review.html">Reviews</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="/about.html">About</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+            </form>
+            <a href="#"><i class="bi bi-cart-fill p-3"></i></a>
+            <a href="/FurHaven-Bootsrtap/login.html"><button class="btn">Login</button></a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+      <!-- SIDE NAVBAR -->
+       <div class="container">
+         <div class="section-container">
+           <div class="row" id="sidebar-container">
+             <div class="col-lg-3 d-none d-lg-block">
+               <nav
+                 id="navbar-example3"
+                 class="h-100 flex-column align-items-stretch pe-4 border-end sidebar"
+               >
+                 <nav class="nav nav-pills flex-column py-4">
+                   <a class="nav-link" href="#" id="nav-link-heading"
+                     >Dog</a
+                   >
+                   <nav class="nav nav-pills flex-column">
+                     <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/dogFood.html">Dog Food</a>
+                     <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/dogToy.html">Dog Toy</a>
+                     <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/dogAccess.html">Dog Accessories</a>
+                     <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/dogGroom.html">Dog Grooming</a>
+                   </nav>
+                   <nav class="nav nav-pills flex-column">
+                     <a class="nav-link" href="#" id="nav-link-heading"
+                       >Cat</a
+                     >
+                     <nav class="nav nav-pills flex-column">
+                       <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/catFood.html">Cat Food</a>
+                       <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/catToy.html">Cat Toys</a>
+                       <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/catAccess.html"
+                         >Cat Accessories</a
+                       >
+                       <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/catGroom.html">Cat Grooming</a>
+                     </nav>
+                     <nav class="nav nav-pills flex-column">
+                       <a
+                         class="nav-link side-heading"
+                         href="#"
+                         id="nav-link-heading"
+                         >Bird</a
+                       >
+                       <nav class="nav nav-pills flex-column">
+                         <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/birdFood.html">Bird Food</a>
+                         <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/birdToy.html">Bird Toy</a>
+                         <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/birdAccess.html"
+                           >Bird Accessories</a
+                         >
+                         <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/birdGroom.html">Bird Care</a>
+                       </nav>
+                       <nav class="nav nav-pills flex-column">
+                         <a
+                           class="nav-link"
+                           href="#"
+                           id="nav-link-heading"
+                           >Fish</a
+                         >
+                         <nav class="nav nav-pills flex-column">
+                           <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/fishFood.html">Fish Food</a>
+                           <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/fishToy.html">Fish Tank</a>
+                           <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/fishAccess.html"
+                             >Fish Accessories</a
+                           >
+                           <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/fishGroom.html">Fish Care</a>
+                         </nav>
+                         <nav class="nav nav-pills flex-column">
+                           <a
+                             class="nav-link"
+                             href="#"
+                             id="nav-link-heading"
+                             >Rabbit</a
+                           >
+                           <nav class="nav nav-pills flex-column">
+                             <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/rabbitFood.html"
+                               >Rabbit Food</a
+                             >
+                             <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/rabbitToy.html"
+                               >Rabbit Toy</a
+                             >
+                             <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/rabbitAccess.html"
+                               >Rabbit Accessories</a
+                             >
+                             <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/rabbitGroom.html"
+                               >Rabbit Grooming</a
+                             >
+                           </nav>
+                           <nav class="nav nav-pills flex-column">
+                             <a
+                               class="nav-link"
+                               href="#"
+                               id="nav-link-heading"
+                               >Hamster</a
+                             >
+                             <nav class="nav nav-pills flex-column">
+                               <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/hamsterFood.html"
+                                 >Hamster Food</a
+                               >
+                               <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/hamsterToy.html"
+                                 >Hamster Toy</a
+                               >
+                               <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/hamsterAccess.html"
+                                 >Hamster Accessories</a
+                               >
+                               <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/hamsterGroom.html"
+                                 >Hamster Care</a
+                               >
+                             </nav>
+                           </nav>
+                           <nav class="nav nav-pills flex-column">
+                             <a
+                               class="nav-link"
+                               href="#"
+                               id="nav-link-heading"
+                               >Turtle</a
+                             >
+                             <nav class="nav nav-pills flex-column">
+                               <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/turtleFood.html"
+                                 >Turtle Food</a
+                               >
+                               <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/turtleToy.html"
+                                 >Turtle Toy</a
+                               >
+                               <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/turtleAccess.html"
+                                 >Turtle Accessories</a
+                               >
+                               <a class="nav-link ms-3" href="/FurHaven-Bootsrtap/ProductList/turtleGroom.html"
+                                 >Turtle Care</a
+                               >
+                             </nav>
+                           </nav>
+                         </nav>
+                       </nav>
+                     </nav>
+                   </nav>
+                 </nav>
+               </nav>
+             </div>
+     
+             <div class="col-lg-9 col-12">
+               <div
+                 data-bs-spy="scroll"
+                 data-bs-target="#navbar-example3"
+                 data-bs-smooth-scroll="true"
+                 class="scrollspy-example-2"
+                 tabindex="0"
+               >
+                 <div class="category-container mt-4 mb-5">
+                   <h1 class="text-center mb-5">Bird - Category</h1>
+                   <div
+                     class="d-flex flex-wrap justify-content-evenly card-container mb-3"
+                   >
+                     <a href="/FurHaven-Bootsrtap/ProductList/birdFood.html">
+                       <div class="card category-card mb-5" style="width: 18rem">
+                       <img
+                         src="https://i.pinimg.com/736x/64/3c/be/643cbed34bb5f6f8f6c11e686958b74e.jpg"
+                         class="card-img-top"
+                         alt="Image of Dog Food"
+                       />
+                       <div class="card-body">
+                         <p class="card-text h3 text-center">Food</p>
+                       </div>
+                     </div>
+                     </a>
+                     <a href="/FurHaven-Bootsrtap/ProductList/birdToy.html">
+                       <div class="card category-card mb-5" style="width: 18rem">
+                       <img
+                         src="https://i.pinimg.com/1200x/9c/51/bd/9c51bdbf2213bff1e9e512bf5a5fa538.jpg"
+                         class="card-img-top"
+                         alt="Image of Dog Toy"
+                       />
+                       <div class="card-body">
+                         <p class="card-text h3 text-center">Toy</p>
+                       </div>
+                     </div>
+                     </a>
+                   </div>
+                   <div
+                     class="d-flex flex-wrap justify-content-evenly card-container mb-3"
+                   >
+                     <a href="/FurHaven-Bootsrtap/ProductList/birdAccess.html">
+                       <div class="card category-card mb-5" style="width: 18rem">
+                       <img
+                         src="https://i.pinimg.com/1200x/2e/4b/7a/2e4b7ab4d716af2029fc5be27a3ca419.jpg"
+                         class="card-img-top"
+                         alt="Image of Dog Accessories"
+                       />
+                       <div class="card-body">
+                         <p class="card-text h3 text-center">Accessories</p>
+                       </div>
+                     </div>
+                     </a>
+                     <a href="/FurHaven-Bootsrtap/ProductList/birdGroom.html">
+                       <div class="card category-card mb-5" style="width: 18rem">
+                       <img
+                         src="https://i.pinimg.com/1200x/c8/1e/63/c81e63e07774529b5e890ac520b76ddb.jpg"
+                         class="card-img-top"
+                         alt="Image of Dog Grooming"
+                       />
+                       <div class="card-body">
+                         <p class="card-text h3 text-center">Care</p>
+                       </div>
+                     </div>
+                     </a>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+        </div>
+       </div>
+
+      <!-- FOOTER -->
+      <div class="container">
+      <div class="footer mt-3 pt-4 pb-3">
+          <div class="row gy-4 text-center">
+            <div class="col-lg-3 col-md-6 col-12 page-link text-center">
+              <a class="navbar-brand" href="/FurHaven-Bootsrtap/home.html"
+                ><img
+                  src="/FurHaven-Bootsrtap/Images/logo.jpg"
+                  alt=""
+                  class="footer-logo rounded-pill"
+              /></a>
+              <h5 class="pb-1 pt-1">About FurHaven</h5>
+              <p class="footer-about">
+                FurHaven offers quality pet products and helpful care tips to keep
+                your furry, feathery, and finned friends healthy and happy.
+              </p>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 col-12 d-flex flex-column page-link">
+              <h5 class="pb-1">Explore</h5>
+              <a href="/FurHaven-Bootsrtap/home.html">Home</a>
+              <a href="/FurHaven-Bootsrtap/shop.html">Shop</a>
+              <a href="/FurHaven-Bootsrtap/tips.html">Tips</a>
+              <a href="/FurHaven-Bootsrtap/about.html">About</a>
+              <a href="/FurHaven-Bootsrtap/contact.html">Contact</a>
+              <a href="/FurHaven-Bootsrtap/review.html">Review</a>
+              <a href="/FurHaven-Bootsrtap/faq.html">FAQ</a>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 col-12 d-flex flex-column page-link">
+              <h5 class="pb-1">Pet Categories</h5>
+              <a href="dogShop.html">Dog</a>
+              <a href="catShop.html">Cat</a>
+              <a href="birdShop.html">Bird</a>
+              <a href="fishShop.html">Fish</a>
+              <a href="rabbitShop.html">Rabbit</a>
+              <a href="hamsterShop.html">Hamster</a>
+              <a href="turtleShop.html">Turtle</a>
+            </div>
+  
+            <div class="col-lg-3 col-md-2 col-12 d-flex flex-column page-link">
+              <h5 class="pb-1">Contact Info</h5>
+              <div class="info-item">
+                <i class="bi bi-telephone-fill text-primary"></i>
+                <span>+91 8056704459</span>
+              </div>
+              <div class="info-item">
+                <i class="bi bi-envelope-paper text-danger"></i>
+                <span>support@furhaven.com</span>
+              </div>
+              <div class="info-item">
+                <i class="bi bi-geo-alt text-success"></i>
+                <span>Coimbatore, India</span>
+              </div>
+            </div>
+  
+            <div class="col-lg-2 col-md-6 col-12 social-link">
+              <h5 class="pb-1">Follow Us</h5>
+              <div class="d-flex gap-4 justify-content-md-start justify-content-center">
+                <a href="https://www.instagram.com/?next=%2F"><i class="bi bi-instagram text-primary" id="insta"></i></a>
+                <a href="https://www.facebook.com/login/"><i class="bi bi-facebook text-primary" id="facebook"></i></a>
+                <a href="https://www.youtube.com/"><i class="bi bi-youtube text-danger" id="youtube"></i></a>
+                <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp text-success"></i></a>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <p class="text-center">© 2025 FurHaven. All rights reserved.</p>
+        </div>
+      </div>
+      
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
